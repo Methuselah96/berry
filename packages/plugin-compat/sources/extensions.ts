@@ -163,19 +163,6 @@ export const packageExtensions: Array<[string, PackageExtensionData]> = [
       "@babel/types": `^7.8.3`,
     },
   }],
-  // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/pull/507
-  [`fork-ts-checker-webpack-plugin@*`, {
-    peerDependencies: {
-      eslint: `>= 6`,
-      typescript: `>= 2.7`,
-      webpack: `>= 4`,
-      'vue-template-compiler': `*`,
-    },
-    peerDependenciesMeta: {
-      eslint: optionalPeerDep,
-      'vue-template-compiler': optionalPeerDep,
-    },
-  }],
   // https://github.com/react-component/animate/pull/116
   [`rc-animate@<=3.1.1`, {
     peerDependencies: {
